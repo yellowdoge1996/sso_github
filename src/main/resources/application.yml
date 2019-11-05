@@ -4,7 +4,8 @@ server:
 
 security:
   user:
-    password: user
+    password: hxl
+    name: hxl
   ignored: /,/favicon.ico,/index.html,/home.html,/dashboard.html,/js/**,/css/**,/webjars/**
   sessions: ALWAYS
   oauth2:
@@ -12,7 +13,7 @@ security:
       loginPath: /dashboard/login
 management:
   security:
-    role: HERO
+    role: USER
 
 logging:
   level:
